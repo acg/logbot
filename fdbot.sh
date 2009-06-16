@@ -1,6 +1,6 @@
 #!/bin/sh
 
-botname="fdbot"
+botname="logbot"
 
 say() {
   echo "$1"
@@ -16,7 +16,7 @@ rest() {
 }
 
 say "NICK $botname"
-say "USER $botname $botname * :IRC logbot"
+say "USER $botname $botname * :An IRC logbot"
 
 while read line; do
   echo 1>&2 "$line"
