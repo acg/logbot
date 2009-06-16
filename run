@@ -1,5 +1,5 @@
 #!/bin/sh
 exec envdir ./env sh -c '
    tcpclient -H -R -v -l "$HOST" "$HOST" "$PORT" \
-      sh -c "exec 0>&6 1>&7 ./fdbot.sh"
+      sh -c "exec 0>&6 1>&7 ./logbot.sh"
 '
