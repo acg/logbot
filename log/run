@@ -1,0 +1,2 @@
+#!/bin/sh
+exec t '+*' '-PING *' '-PONG *' s16777216 n1000 ./main
