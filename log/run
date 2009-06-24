@@ -1,2 +1,2 @@
 #!/bin/sh
-exec multilog '+*' '-PING *' '-PONG *' t s16777216 n1000 ./main
+exec multilog t '+*' '-@* PING *' '-@* PONG *' s16777216 n1000 ./main
